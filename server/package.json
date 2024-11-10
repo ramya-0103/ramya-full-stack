@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "nodemon-server": "nodemon server.js",
+        "node-server": "node server.js",
+        "build": "cd ../client && npm run build",
+        "install-client": "cd ../client && npm install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.10",
+        "mongoose": "^5.13.2",
+        "nodemon": "^2.0.12"
+    }
+}
